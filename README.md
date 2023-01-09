@@ -7,7 +7,7 @@
 v5同v6都有任意读取的漏洞只是v5要自己加密目录路径，v6的API有自带的加密功能。
 要用在v6的话，好像就不许要那个`encode()`功能了（可以看以下有关链接）。
 
-### 使用说明
+#### 使用说明
 需要自己手动改的变数：
 - `$dir_txt`
 - `$url`
@@ -18,6 +18,8 @@ v5同v6都有任意读取的漏洞只是v5要自己加密目录路径，v6的API
 php enum_thinkadmin.pgp
 ```
 
-### 有关链接
+#### 有关链接
 - https://github.com/zoujingli/ThinkAdmin/issues/244
-- https://www.exploit-db.com/exploits/48812
+- https://www.exploit-db.com/exploits/48812 
+ 
+### 2. 未开发 
